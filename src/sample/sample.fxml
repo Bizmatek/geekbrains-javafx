@@ -1,0 +1,11 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<AnchorPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml">
+    <TextArea fx:id="textArea" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" prefWidth="380" prefHeight="400"
+              editable="false"/>
+    <TextField fx:id="textField" AnchorPane.topAnchor="430" AnchorPane.leftAnchor="10" minWidth="300"
+               onKeyPressed="#onPressEnter"/>
+    <Button text="Send" AnchorPane.topAnchor="430" AnchorPane.rightAnchor="10" onAction="#onBtnClick"/>
+</AnchorPane>
